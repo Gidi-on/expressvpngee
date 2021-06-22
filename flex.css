@@ -1,0 +1,673 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1em;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    align-items: center;
+}
+
+nav #img1{
+    width: 200px;
+}
+
+.first{
+    width: 100%;
+    background-image: url(images/bg1.png), url(images/bg2.jpg); 
+    background-position: bottom center, center;
+    background-repeat: no-repeat, no-repeat;
+    background-Size: 500px, cover;
+    position: relative;
+    min-height: 80vh;
+}
+
+.first #spec{
+    background-color: transparent;
+    padding: 9px 40px;
+    cursor: pointer;
+    transition: all 0.20s;
+    border-radius: 90px;
+    color: #0f866c;
+    font-size: 1.3rem;
+    border-color: #0f866c;
+}
+
+#flist ul li a:hover{
+    color: #0f866c;
+}
+
+#spec:hover{
+    color: black;
+    background-color: rgb(211, 241, 126);
+    border-color: rgb(211, 241, 126);
+}
+
+#flist{
+    text-align: right;
+    flex: 1;
+}
+
+#flist ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 10px;
+    position: relative;
+}
+
+#flist ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 18px;
+    font-family: Inter, -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+.center h1{
+    font-size: 90px;
+    margin-top: 50px;
+    font-family: "FS Kim", Georgia, Serif;
+}
+
+.center h4{
+    margin-top: 60px;
+    font-size: 2rem;
+    font-family: Inter, -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.center p{
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-family: Inter, -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.but{
+    background-color: #0f866c;
+    padding: 13px 40px;
+    cursor: pointer;
+    transition: all 0.20s;
+    border-radius: 90px;
+    color: white;
+    font-size: 1.3rem;
+    border-color: #0f866c;
+}
+
+.butt{
+    background-color: #0f866c;
+    padding: 13px 40px;
+    cursor: pointer;
+    transition: all 0.20s;
+    border-radius: 90px;
+    color: white;
+    margin-top: 50px;
+    font-size: 1.3rem;
+    border-color: #0f866c;
+}
+
+.but:hover{
+    color: black;
+    background-color: rgb(211, 241, 126);
+    border-color: rgb(211, 241, 126);
+}
+
+.butt:hover{
+    color: black;
+    background-color: rgb(211, 241, 126);
+    border-color: rgb(211, 241, 126);
+}
+
+.second{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    font-family: "FS Kim", Georgia, Serif;;
+}
+
+.row, .rowt, .rowth{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    padding: 40px 30px;
+}
+
+#column, #columnt, #columnth{
+    text-align: left;
+    line-height: 1em;
+    width: 400px;
+    font-size: 1.5rem;
+    
+}
+
+#column img, #columnt img, #columnth img{
+    width: 410px;
+    height: 410px;
+}
+
+#column h4, #columnt h4, #columnth h4{
+    line-height: 39px;
+    font-size: 39px;
+} 
+
+#column p, #columnt p, #columnth p{
+    margin-top: 30px;
+    line-height: 1.7rem;
+    font-size: 18px;
+}
+
+#columnth a img{
+    width: 50px;
+    height: 50px;
+}
+
+#non{
+    color: #0f866c;
+    margin-left: 100px;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 50px;
+    position: relative;
+    right: 99px;
+    border-bottom: 2.5px solid #0f866c;
+    text-decoration: none;
+}
+
+#non:hover{
+    border-bottom: 2.5px solid yellowgreen;
+    transition: border-bottom 500ms ease;
+    color: black;
+}
+
+#none{
+    color: #0f866c;
+    text-decoration: none;
+    margin-left: 100px;
+    text-align: left;
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    padding-top: 50px;
+    border-bottom: 2.5px solid #0f866c;
+}
+
+#none:hover{
+    border-bottom: 2.5px solid yellowgreen;
+    color: black;
+    transition: border-bottom 500ms ease right;
+    transition-timing-function: ease
+}
+
+#rowfo img{ 
+    width: 350px;
+    height: 180px;
+}
+
+
+.iovercame{
+    width: 100%;
+    align-items: center;
+    padding-top: 100px;
+    font-family: "FS Kim", Georgia, Serif;
+}
+
+.rowfo{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    max-width: 100%;
+    padding: 20px 40px;
+}
+
+#rowfi{
+    padding-left: 510px;
+    padding-bottom: 100px;
+}
+
+#columnfo{
+    padding: 20px 90px;
+    margin: 0px -7px;
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#columnfo h3{
+    width: 95%;
+    font-size: 32px;
+    padding-top: 20px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+#columnfo p{
+    width: 90%;
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0px 20px;
+    line-height: 28px;
+    padding-left: 20px;
+}
+
+#columnfo img{
+    width: 250px;
+    height: 130px;
+    padding-left: 20px;
+}
+
+.third{
+    background-color: #fdf3f4;
+    padding-top: 50px;
+    height: 800px;
+    font-family: "FS Kim", Georgia, Serif;
+}
+
+#head{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 46px;
+}
+
+.third img{
+    padding-left: 190px;
+    padding-top: 70px;
+}
+
+.third #span{
+    position: relative;
+    height: 200px;
+} 
+
+#span h3{
+    position: relative;
+    bottom: 100px;
+}
+
+#span img{
+    position: relative;
+    color: #041e2f;
+    right: 192px;
+    bottom: 90px;
+    width: 90px;
+}
+
+.third span{
+    background-color: tomato;
+    align-items: left;
+    padding-right: 100px;
+    position: relative;
+    max-width: 60px;
+}
+
+.right{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1100px;
+    bottom: 400px;
+    position: relative;
+}
+
+.right div{
+    padding-top: 30px;
+}
+
+.right h1{
+    font-size: 88px;
+    padding-bottom: 40px;
+    color: #041e2f;
+    font-family: "FS Kim", Georgia, Serif;
+}
+
+.right h3{
+    color: #041e2f;
+    line-height: 25px;
+    padding-bottom: 50px
+}
+
+#hot{
+    left: 550px;
+    color: #0f866c;
+    font-size: 20px;
+    position: relative;
+    bottom: 390px;
+    border-bottom: 2.5px solid #0f866c;
+    text-decoration: none;
+}
+
+#hot:hover{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2.5px solid yellowgreen;
+}
+
+.maldives{
+    background-color:#f9f8f2;
+    height: 1130px;
+    font-family: "FS Kim", Georgia, Serif;
+}
+
+.maldives h2{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 46px;
+    line-height: 55px;
+}
+
+#navv{
+    padding-top: 150px;
+    text-align: center;
+}
+
+#navv ul li{
+    flex: 1;
+    list-style: none;
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
+}
+
+#navv ul #act{
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    color: black;
+    text-transform: uppercase;
+}
+
+#navv ul a{
+    text-decoration: none;
+    color: #abacb3;
+    text-transform: uppercase;
+}
+
+#navv ul a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+    
+}
+
+#big{
+    padding-top: 5px;
+    border: none;
+    border-top: 1px solid;
+    color: #abacb3;
+
+}
+
+.zanzibar{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+#mid{
+    width: 20%;
+    text-align: left;
+}   
+
+#right{
+    width: 20%;
+    text-align: left; 
+}
+
+#mid div, #right div{
+    display: flex;
+    flex-direction: row;
+}
+
+#mid div p, #right div p{
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+#mid #move{
+    top: 50px;
+}
+
+#left{
+    width: 20%;
+    align-items: center;
+}
+
+#left div{
+    width: 250px;
+    align-items: center;
+}
+
+#left img{
+    padding-left: 60px;
+}
+
+#left p{
+    font-size: 1rem;
+    padding-left: 40px;
+}
+
+#left #mo{
+    margin-left: 34px;
+}
+
+.zanzibar p{
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+
+.borrom{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    position: relative;
+    left: 5%;
+}
+
+.fifth{
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    margin-top: 90px;
+}
+
+.fifth #midd{
+    height: 470px;
+    border: 1px solid #CCD2D5;
+    left: 40px;
+}
+
+#run img{
+    width: 100px;
+}
+
+#runs img{
+    width: 150px;
+}
+
+#run{
+    align-items: left;
+    height: 450px;
+    padding-left: 120px;
+    padding-right: 100px;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+#runs{
+    height: 450px;
+    padding-right: 190px;
+    padding-left: 190px;
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.fifth h3{
+    line-height: 40px;
+    font-family: "FS Kim", Georgia, Serif;
+}
+
+.fifth p{
+    line-height: 30px;
+}
+
+.on{
+    background-color: transparent;
+    padding: 15px 40px;
+    cursor: pointer;
+    transition: all 0.20s;
+    border-radius: 90px;
+    color: #0f866c;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    border-color: #0f866c;
+}
+
+.on:hover{
+    color: black;
+    background-color: rgb(211, 241, 126);
+    border-color: rgb(211, 241, 126);
+}
+
+.finally{
+    background-color: #001d2f;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 130px;
+    font-family: Inter, -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.finally #otu ul li{
+    list-style: none;
+}
+
+.finally #otu ul a{
+    color: #ccd2d5;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.finally #otu ul a:hover{
+    color: rgb(211, 241, 126);
+}
+
+.finally #footertitle{
+    color: #ccd2d5;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "FS Kim", Georgia, Serif;
+}
+
+.sixth{
+    height: 12vh;
+    background-color: rgb(3, 24, 29);
+}
+
+.here{
+    display: flex;
+    justify-content: space-between;
+    padding:  3% 10% 0 11%;
+}
+
+.voila p{
+    color: #ccd2d5;
+    font-size: 15px;
+}
+
+.here .voice{
+    color: white;
+    width: 30px;
+}
+
+.last{
+    position: relative;
+}
+
+#lasty{
+    color: #ccd2d5;
+    background-color: #0f866c;
+    border-radius: 5px;
+    bottom: 0;
+    position: fixed;
+    border: 5px solid #0f866c;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding: 3px;
+    right: 5px;
+}
+
+.sixth .voici .fab{
+    color: white;
+    width: 50px;
+    bottom: 20px;
+}
+
+.sixth .voici .fab:hover{
+    color: rgb(211, 241, 126);
+    width: 50px;
+    bottom: 20px;
+}
+
+#flist ul li a:hover .fa-chevron-up{
+    display: inline-block;
+}
+
+#flist .fa-chevron-up{
+    display: none;
+    padding-left: 10px;
+}
+
+#flist .fa-chevron-down{
+    padding-left: 10px;
+}
+
+#flist .fa-globe{
+    padding-right: 10px;
+}
+
+#flist ul li a:hover .fa-chevron-down{
+    display: none;
+}
+
+.finally #otu ul li a:hover .fa-chevron-up{
+    display: inline-block;
+}
+
+.finally #otu .fa-chevron-up{
+    display: none;
+    padding-left: 10px;
+}
+
+.finally #otu .fa-chevron-down{
+    padding-left: 10px;
+}
+
+.finally #otu ul li a:hover .fa-chevron-down{
+    display: none;
+}
+
+.finally #otu .fa-globe{
+    padding-right: 10px;
+}
+
+.center .fa-arrow-right{
+    padding-left: 10px;
+}
